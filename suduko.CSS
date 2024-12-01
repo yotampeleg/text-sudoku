@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+h1 {
+    font-size: 50px;
+
+}
+body {
+    text-align: center;
+    font-family: "Brush Script", cursive, monospace;
+    background-image:  url(https://th.bing.com/th/id/OIG1.nmBJ7xcHowuEcX1CPubo?w=1024&h=1024&rs=1&pid=ImgDetMain);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#board {
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tile {
+    width: 48px;
+    height: 48px;
+    border: 1px solid lightgray;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#digits {
+    width: 450px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.number {
+    width:  44px;
+    height: 44px;
+    border: 1px solid black;
+    margin: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.number-selected {
+    background-color: gray;
+}
+.tile-start {
+    background-color: whitesmoke;
+}
+.horizontal-line {
+    border-bottom: 2px solid black;
+}
+
+.vertical-line {
+    border-right: 2px solid black;
+}
